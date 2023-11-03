@@ -11,7 +11,6 @@ export default function App() {
   const [history, setHistory] = useState([]);
   return (
     <SafeAreaView style={styles.container}>
-      console.log("sa")
       <StatusBar style="auto" />
       {!currentSubject ? (
         <>
